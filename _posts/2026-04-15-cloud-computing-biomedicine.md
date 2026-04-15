@@ -35,6 +35,27 @@ One of the most exciting applications is in genomics. Sequencing a single human 
 produces gigabytes of raw data. Analyzing thousands of genomes, as modern studies require,  
 demands enormous computational power. Cloud platforms make this feasible for research groups 
 that could never afford dedicated supercomputing clusters.
+<div style="margin: 1.5rem 0; padding: 1.5rem; background: #f4f4f4; border-radius: 8px;">
+  <p style="font-weight: 600; margin: 0 0 1rem 0; font-size: 15px;">The genomic data scale problem</p>
+  <div style="display: flex; flex-direction: column; gap: 10px;">
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <span style="font-size: 13px; color: #555; width: 130px; flex-shrink: 0; text-align: right;">1 genome</span>
+      <div style="height: 22px; width: 3%; background: #5DCAA5; border-radius: 3px; min-width: 6px;"></div>
+      <span style="font-size: 12px; color: #777;">~200 GB raw data</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <span style="font-size: 13px; color: #555; width: 130px; flex-shrink: 0; text-align: right;">1,000 genomes</span>
+      <div style="height: 22px; width: 30%; background: #1D9E75; border-radius: 3px;"></div>
+      <span style="font-size: 12px; color: #777;">~200 TB — local server limit</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <span style="font-size: 13px; color: #555; width: 130px; flex-shrink: 0; text-align: right;">NIH All of Us</span>
+      <div style="height: 22px; width: 100%; background: #0F6E56; border-radius: 3px;"></div>
+      <span style="font-size: 12px; color: #777;">1+ PB — cloud only</span>
+    </div>
+  </div>
+  <p style="font-size: 12px; color: #888; margin: 1rem 0 0 0;">Traditional local servers max out around 10–50 TB. Cloud platforms scale to petabytes on demand.</p>
+</div>
 
 Sachdeva et al. [[1]](#ref1) highlight that scientists are increasingly using cloud computing to 
 integrate data from systems biology, data mining, and genomics to solve complex biomedical 
